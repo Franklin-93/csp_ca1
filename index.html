@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,7 @@
     
     <title>Dublin City</title>
     
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
@@ -15,12 +17,32 @@
     
     <h1>Dublin</h1>
    
+   <!-- adding <ul> tag in order to creating the table of contents and 
+       generate a link within a list tag <li> so inside we create an anchor tag <a> -->     
+     
+     <div>
+        <ul> 
+            <b>Contents</b>
+            <br>
+            <br>
+            
+            <li><a href="#City"> Getting to know the City</a></li>
+            <li><a href="#Population">Population</a></li>
+            <li><a href="#History">A bit of a History</a></li>
+        </ul>
+     </div>
+     
+     <br>
+
+
 <!-- Article number 1 toget to knoe the history of the city. Using of <article tag> and 
        <paragraoh tag>-->
 
+       
+
    <article>
       <header>
-         <h2>Knowing the City</h2>
+         <h2><a name= "City"> </a>Getting to know the City</h2>
          <P> Dublin is the capital and largest city of Ireland. Situated on a bay on the east coast, at the mouth of the River
         Liffey, it is in the province of Leinster and the Eastern and Midland Region. It is bordered on the south by the
         Dublin Mountains, a part of the Wicklow Mountains range. At the 2016 census, it had an urban area population of
@@ -29,13 +51,16 @@
        </header> 
     </article>
 
+
     <!-- I decided to use the <hr tag> to make it nicer and more organized  -->
     <hr>
      
+
+
     <!-- Article number 2 - It is about the number population of Ireland-->
     <article>
         <header>
-         <h2>  Population</h2>
+         <h2> <a name= "Population"></a> Population</h2>
          <p>There is archaeological debate regarding precisely where and when Dublin originated, with a settlement
             established by the Gaels during or before the 7th century CE, and a second, Viking, settlement, following.
             As the small Kingdom of Dublin, the city grew, and it became Ireland's principal settlement following the Norman
@@ -45,11 +70,15 @@
         </header>       
     </article>
    
+
+
      <hr>
 <!-- Article number 3 - Talking about HISTORY and its places.-->
+   
+
     <article>
        <header>
-         <h2>A bit of a <i>History</i></h2>
+         <h2><a name= "History"></a>A bit of a <i>History</i></h2>
          <p>Dublin is a contemporary and historical centre for Irish education, arts and culture, administration and
             industry. As of 2018 the city was listed by the Globalization and World Cities Research Network (GaWC) as a
             global city, with a ranking of "Alpha minus", which places it as one of the top thirty cities in the world</p>
