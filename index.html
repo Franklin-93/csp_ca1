@@ -1,94 +1,156 @@
-
 <!DOCTYPE html>
+
+<!-- Declaring HTML language specifically in (English) using 'lang' tag-->
 <html lang="en">
+
 <head>
+    <!-- Placing the meta tags by using keywords, name and author-->
+
     <meta charset="UTF-8">
+    <meta name="Description" content="This is website about Dublin City">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Dublin City</title>
-    
+    <meta name="keywords" content="Ireland, Dublin, City">
+    <meta name="author" content="https://en.wikipedia.org/wiki/Dublin">
+
+    <title>Ireland</title>
+
     <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
-    
-    
-    <h1>Dublin</h1>
-   
-   <!-- adding <ul> tag in order to creating the table of contents and 
-       generate a link within a list tag <li> so inside we create an anchor tag <a> -->     
-     
-     <div>
-        <ul> 
-            <b>Contents</b>
-            <br>
-            <br>
-            
-            <li><a href="#City"> Getting to know the City</a></li>
-            <li><a href="#Population">Population</a></li>
-            <li><a href="#History">A bit of a History</a></li>
-        </ul>
-     </div>
-     
-     <br>
+
+    <!-- Adding the header-->
+
+    <div class="header">
+        <div class="inner_header">
+
+            <header>
+                <div class="logo">
+                    <h1> Dublin<span> City</span></strong></h1>
+                </div>
+
+            </header>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> <!-- space between the header and contens-->
+    <!--<div class="background_image"></div>-->
+
+    <!-- adding <ul> tag in order to creating the table of contents and 
+        generate a link within a list tag <li> so inside we create an anchor tag <a> -->
+
+    <div class="Contents"><strong>Contents</strong></div>
+
+    <div>
+        <nav>
+            <a href="#city"> Getting to know the City</a> |
+            <a href="#population">Population</a> |
+            <a href="#history">A bit of a History</a> |
+            <a href="#climate">Climate</a>
+        </nav>
+    </div>
+
+    <!-- Closing the body of the page with a "main" tag-->
+    <!-- Article number 1 toget to know the history of the city. Using of <article tag> and -->
+    <main>
+        <article class="Content">
+            <div>
+                <h2><a name="knowing_the_city"></a>Knowing the City</h2>
+                <P class="popul"> Dublin is the capital and largest city of Ireland. Situated on a bay on the east
+                    coast, at the mouth of the River Liffey, it is in the province of Leinster and the Eastern and
+                    Midland Region. It is bordered on the south by the Dublin Mountains, a part of the Wicklow Mountains
+                    range. At the 2016 census, it had an urban area population of 1,173,179, while the population of the
+                    traditional County Dublin as a whole was 1,347,359. The population of the Greater Dublin Area was
+                    1,904,806.</P>
+            </div>
+        </article>
+
+        <!-- I decided to use the <hr tag> to make it nicer and more organized  -->
 
 
-<!-- Article number 1 toget to knoe the history of the city. Using of <article tag> and 
-       <paragraoh tag>-->
-
-       
-
-   <article>
-      <header>
-         <h2><a name= "City"> </a>Getting to know the City</h2>
-         <P> Dublin is the capital and largest city of Ireland. Situated on a bay on the east coast, at the mouth of the River
-        Liffey, it is in the province of Leinster and the Eastern and Midland Region. It is bordered on the south by the
-        Dublin Mountains, a part of the Wicklow Mountains range. At the 2016 census, it had an urban area population of
-        1,173,179, while the population of the traditional County Dublin as a whole was 1,347,359. The population
-        of the Greater Dublin Area was 1,904,806.</P>
-       </header> 
-    </article>
+        <!-- Article number 2 - It is about the number population of Ireland-->
+        <article class="Content">
+            <div>
+                <h2> <a name="population"></a> Population</h2>
+                <p>There is archaeological debate regarding precisely where and when Dublin originated, with a
+                    settlement established by the Gaels during or before the 7th century CE, and a second, Viking,
+                    settlement, following. As the small Kingdom of Dublin, the city grew, and it became Ireland's
+                    principal settlement following the Norman invasion. The city expanded rapidly from the 17th century
+                    and was briefly the second largest city in the British Empire after the Acts of Union in 1800.
+                    Following independence in 1922, Dublin became the capital of the Irish Free State, later renamed
+                    Ireland in 1937.</p>
+            </div>
+        </article>
 
 
-    <!-- I decided to use the <hr tag> to make it nicer and more organized  -->
-    <hr>
-     
+
+        <!-- Article number 3 - Talking about HISTORY and its places.-->
 
 
-    <!-- Article number 2 - It is about the number population of Ireland-->
-    <article>
-        <header>
-         <h2> <a name= "Population"></a> Population</h2>
-         <p>There is archaeological debate regarding precisely where and when Dublin originated, with a settlement
-            established by the Gaels during or before the 7th century CE, and a second, Viking, settlement, following.
-            As the small Kingdom of Dublin, the city grew, and it became Ireland's principal settlement following the Norman
-            invasion. The city expanded rapidly from the 17th century and was briefly the second largest city in the
-            British Empire after the Acts of Union in 1800. Following independence in 1922, Dublin became the capital of the
-            Irish Free State, later renamed Ireland in 1937</p>
-        </header>       
-    </article>
-   
+        <article class="Content">
+            <div>
+                <h2><a name="history"></a>A bit of a <i>History</i></h2>
+                <p>Dublin is a contemporary and historical centre for Irish education, arts and culture, administration
+                    and industry. As of 2018 the city was listed by the Globalization and World Cities Research Network
+                    (GaWC) as a global city, with a ranking of "Alpha minus", which places it as one of the top thirty
+                    cities in the world.</p>
+            </div>
+        </article>
 
 
-     <hr>
-<!-- Article number 3 - Talking about HISTORY and its places.-->
-   
+        <article class="Content">
+            <div>
+                <h2><a name="climate"></a>Climate</h2>
+                <p>Similar to much of the rest of northwestern Europe, Dublin experiences a maritime climate with
+                    mild-warm summers, cool winters, and a lack of temperature extremes. The average maximum January
+                    temperature is 8.8 °C (48 °F), while the average maximum July temperature is 20.2 °C (68 °F). On
+                    average, the sunniest months are May and June, while the wettest month is October with 76 mm (3 in)
+                    of rain, and the driest month is February with 46 mm (2 in). Rainfall is evenly distributed
+                    throughout the year.
+                </p>
 
-    <article>
-       <header>
-         <h2><a name= "History"></a>A bit of a <i>History</i></h2>
-         <p>Dublin is a contemporary and historical centre for Irish education, arts and culture, administration and
-            industry. As of 2018 the city was listed by the Globalization and World Cities Research Network (GaWC) as a
-            global city, with a ranking of "Alpha minus", which places it as one of the top thirty cities in the world</p>
-       </header> 
-    </article>  
-   
+                <p>Dublin's sheltered location on the east coast makes it the driest place in Ireland, receiving only
+                    about half the rainfall of the west coast. Ringsend in the south of the city records the lowest
+                    rainfall in the country, with an average annual precipitation of 683 mm (27 in),[71] with the
+                    average annual precipitation in the city centre being 714 mm (28 in). The main precipitation in
+                    winter is rain; however snow showers do occur between November and March. Hail is more common than
+                    snow. The city experiences long summer days and short winter days. Strong Atlantic winds are most
+                    common in autumn. These winds can affect Dublin, but due to its easterly location, it is least
+                    affected compared to other parts of the country. However, in winter, easterly winds render the city
+                    colder and more prone to snow showers.
+                </p>
+
+                <p>In the 20th century, smog and air-pollution were an issue in the city, precipitating a ban on
+                    bituminous fuels across Dublin. The ban was implemented in 1990 to address black smoke
+                    concentrations, that had been linked to cardiovascular and respiratory deaths in residents. Since
+                    the ban, non-trauma death rates, respiratory death rates and cardiovascular death rates have
+                    declined – by an estimated 350 deaths annually.
+
+
+                </p>
+            </div>
+        </article>
+    </main>
+
     <!-- see also 'content'-->
-    <p><a href="https://www.linkedin.com/feed/"><em> see also  </em></a> </p>
-   
+    <p><a href="https://www.linkedin.com/feed/"><em> see also </em></a> </p>
+
+
+    <footer>
+        Some copyright info or perhaps some author
+        info for an &lt;article&gt;?
+    </footer>
+
+
 
 
 </body>
+
 </html>
