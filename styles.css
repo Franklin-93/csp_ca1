@@ -1,8 +1,47 @@
+ 
 *{
 margin:0px;
-padding: 9px;
+padding: 10px;
 list-style: none;
 text-decoration: none;
 }
 
 /* Adding css styling */
+
+/* making the body nicier by using padding, font size*/
+body{
+  padding:10px;
+  background-size: cover;
+  background-position:top;
+  font-family: 'Montserrat';
+  font-size: 11px;
+ }
+
+ /* adding a header inside another - background should be green*/
+.header{
+  width: 98%;
+  height: 25px;
+  background-color: rgb(17, 92, 39);
+}
+
+/*inner head within the main header*/
+.inner_header{
+  width: 100%;
+  height: 25px; ;
+  background-color: rgb(169, 162, 170);
+}
+
+/*logo should be "DUNLIN CITY"*/
+.logo h1{
+  width: px;
+  margin-top: -30px ;
+  color: rgb(255, 254, 254);
+  font-family: 'Montserrat'; /*text-format*/
+  font-size: 25px; /* size of the logo*/
+  }
+
+  /*font-weight - shoulb be > CITY*/
+.logo h1 span{
+  font-weight:80;
+}
+ 
