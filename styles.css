@@ -9,17 +9,18 @@ text-decoration: none;
 /* Adding css styling */
 
 /* making the body nicier by using padding, font size*/
-body{
-  padding:10px;
+  body{
+  padding:100px;
   background-size: cover;
   background-position:top;
-  font-family: 'Montserrat';
+  font-family:'Montserrat';
   font-size: 11px;
- }
+  background-color: rgb(255, 255, 255);
+  }
 
  /* adding a header inside another - background should be green*/
 .header{
-  width: 98%;
+  width: 100%;
   height: 25px;
   background-color: rgb(17, 92, 39);
 }
@@ -27,21 +28,86 @@ body{
 /*inner head within the main header*/
 .inner_header{
   width: 100%;
-  height: 25px; ;
+  height: 50px; ;
   background-color: rgb(169, 162, 170);
+  
 }
 
 /*logo should be "DUNLIN CITY"*/
-.logo h1{
-  width: px;
-  margin-top: -30px ;
+ .logo h1{
+  
+  margin-top: -25px ;
   color: rgb(255, 254, 254);
   font-family: 'Montserrat'; /*text-format*/
   font-size: 25px; /* size of the logo*/
   }
 
   /*font-weight - shoulb be > CITY*/
-.logo h1 span{
+ .logo h1 span{
   font-weight:80;
 }
  
+/*Styling contents and lining up them*/
+ .Contents{
+  color: rgb(17, 92, 39);
+  font-family: 'Montserrat';
+  font-size: 12px;
+  text-decoration-line: underline;
+}
+
+/*Contents formating*/
+ nav a{
+  color: rgb(17, 92, 39);
+  font-family: 'Montserrat';
+  font-size: 11px;
+}
+
+/*size of the header*/
+h2 {
+   font-size: 12px;
+   }
+
+  /*subheader*/
+  h3{
+  color: black;
+  font-size: 10px;
+  text-align: left;
+  }
+
+
+/*border around the content*/
+.Content{
+  padding: 10px;
+  margin:5px;
+  background-color: rgb(253, 253, 253);
+     
+  }
+
+
+ .all_contents{
+  width: 92%;
+  margin:30px ;
+  background-color: rgb(166, 223, 183);
+  }
+
+/*ADDING IMAGES AND editinf them*/
+
+
+
+ .see_also{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  color: rgb(17, 92, 39);
+ }
+
+/*Adding and styling footer*/
+ footer{
+  margin: 10px;
+  text-align: center;
+  padding: 3px;
+  color: aliceblue;
+  background-color: rgb(17, 92, 39);
+  height: 80px;
+}
+
+
